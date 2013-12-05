@@ -44,7 +44,8 @@ branch and checkout to it before importing the project to Eclipse), and type
 
 git clone <git clone URL>
 
-This will save the contents of the repository to your disk. You'll be in the Master branch when this happens.
+This will save the contents of the repository to your disk. Now switch directory to the new folder the clone created. 
+You'll now be in the Master branch of the project.
 Now, you need to create a branch for yourself. The 'Master' branch must be left unblemished till much later, so create a branch
 for yourself with your name, using
 
