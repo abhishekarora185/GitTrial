@@ -42,26 +42,26 @@ Once you've set up your GIT account and installed GIT on your system, open GIT b
 move to a preferred directory (If you're using Eclipse, navigate to your workspace folder and clone + create your own
 branch and checkout to it before importing the project to Eclipse), and type
 
-git clone <git clone URL>
+git clone :url:
 
 This will save the contents of the repository to your disk. Now switch directory to the new folder the clone created. 
 You'll now be in the Master branch of the project.
 Now, you need to create a branch for yourself. The 'Master' branch must be left unblemished till much later, so create a branch
 for yourself with your name, using
 
-git branch <yourname>
+git branch :yourname:
 
 If you're confused about what a branch is, it simply stores your version/copy of the project, with all the content you've added.
 When you create a new branch, it'll contain everything that the branch you branched from contains. Now, you've created a
 branch for yourself, but you're still in the parent branch. So type
 
-git checkout <yourbranchname>
+git checkout :yourbranchname:
 
 to switch to your branch. Now all your changes will only be reflected in your branch. Do whatever needs to be done, and when you want
 to commit your changes, do the following:
 
-git add . ('.' stands for every changed file)
-git commit -m "<somestringmessage>"
+git add . ('.' stands for every changed file);
+git commit -m ":somestringmessage:";
 git push
 
 This will "push" your changes to your branch on the remote repository on the git server. If you only want to do a local commit,
@@ -70,11 +70,11 @@ just skip the last of the three steps.
 NOTE: If you've just created a new local branch without updating the server, a normal "push" won't work. Use this, just one
 time, to set up your branch on the remote repository:
 
-git push -u origin <newbranchname>
+git push -u origin :newbranchname:
 
 To combine your branch with another branch, use
 
-git rebase <otherbranchname> (I'm not too sure if it's a combining operation. Might be a revert operation. Be careful =p)
+git rebase :otherbranchname: (I'm not too sure if it's a combining operation. Might be a revert operation. Be careful =p)
 
 To update your repository, use
 
