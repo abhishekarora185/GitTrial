@@ -67,6 +67,11 @@ git push
 This will "push" your changes to your branch on the remote repository on the git server. If you only want to do a local commit,
 just skip the last of the three steps.
 
+NOTE: If you've just created a new local branch without updating the server, a normal "push" won't work. Use this, just one
+time, to set up your branch on the remote repository:
+
+git push -u origin <newbranchname>
+
 To combine your branch with another branch, use
 
 git rebase <otherbranchname> (I'm not too sure if it's a combining operation. Might be a revert operation. Be careful =p)
