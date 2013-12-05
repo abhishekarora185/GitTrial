@@ -39,7 +39,8 @@ This requires pretty basic android knowledge, so it shouldn't be too hard. This 
 GETTING STARTED:
 
 Once you've set up your GIT account and installed GIT on your system, open GIT bash(Windows) or the terminal(Linux/MAC),
-move to a preferred directory, and type
+move to a preferred directory (If you're using Eclipse, navigate to your workspace folder and clone + create your own
+branch and checkout to it before importing the project to Eclipse), and type
 
 git clone <git clone URL>
 
