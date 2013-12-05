@@ -4,5 +4,7 @@
     <string name="app_name">GitTrial</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="head">Sign In</string>
+    <string name="enter">Submit</string>
 
 </resources>
