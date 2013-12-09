@@ -4,5 +4,7 @@
     <string name="app_name">GitTrial</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="NewsTab">This will display the news feed. </string>
+    <string name="EventsTab">This will display the events to happen in college.</string>
 
 </resources>
