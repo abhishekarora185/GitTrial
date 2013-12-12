@@ -1,8 +1,13 @@
 package com.example.gittrial;
 
+
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
+import android.view.View.OnClickListener;
 
 public class MainActivity extends Activity {
 
@@ -10,6 +15,16 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		Button b = (Button) findViewById(R.id.button1);
+		b.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				startActivity(new Intent(MainActivity.this,MyListView.class));
+			}
+		});
 	}
 
 	@Override
